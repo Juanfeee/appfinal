@@ -1,4 +1,4 @@
-package app.android.appfinal.view
+package app.android.appfinal.view.app.android.appfinal.viewmodel
 
 import android.content.Context
 import android.view.LayoutInflater
