@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.safeargs.kotlin)
-
+    alias(libs.plugins.kotlin.kapt)
 }
 
 android {
@@ -60,6 +60,11 @@ dependencies {
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1")
     // LiveData
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.3.1")
+    //Room
+    implementation("androidx.room:room-ktx:2.6.1")
+    kapt("androidx.room:room-ktx:2.6.1")
+    kapt("androidx.room:room-compiler:2.6.1")
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
