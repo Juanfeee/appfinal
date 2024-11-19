@@ -18,10 +18,18 @@
         <action
             android:id="@+id/action_firstFragment_to_room"
             app:destination="@id/room" />
+        <action
+            android:id="@+id/action_firstFragment_to_cameraActivity"
+            app:destination="@id/cameraActivity" />
     </fragment>
     <fragment
         android:id="@+id/room"
         android:name="app.android.appfinal.view.Room"
         android:label="fragment_room"
         tools:layout="@layout/fragment_room" />
+    <activity
+        android:id="@+id/cameraActivity"
+        android:name="app.android.appfinal.CameraActivity"
+        android:label="activity_camera"
+        tools:layout="@layout/activity_camera" />
 </navigation>
