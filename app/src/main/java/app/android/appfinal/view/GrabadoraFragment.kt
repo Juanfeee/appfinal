@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import app.android.appfinal.R
 
-
 class GrabadoraFragment : Fragment() {
 
 
@@ -22,6 +21,5 @@ class GrabadoraFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_grabadora, container, false)
     }
-
 
 }

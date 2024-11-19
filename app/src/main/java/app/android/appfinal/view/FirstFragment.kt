@@ -27,7 +27,7 @@ class FirstFragment : Fragment() {
         val btnGrabadora=root.findViewById<Button>(R.id.btnGrabadora)
 
         btnGrabadora.setOnClickListener{
-            findNavController().navigate(R.id.action_firstFragment_to_grabadoraFragment)
+            findNavController().navigate(R.id.action_firstFragment_to_room)
         }
         return root
     }
