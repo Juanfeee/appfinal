@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import app.android.appfinal.R
+import app.android.appfinal.UsuarioAdapter
 
 import app.android.appfinal.databinding.FragmentRoomBinding
 import app.android.appfinal.model.database.dao.UserDao

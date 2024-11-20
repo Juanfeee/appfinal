@@ -1,4 +1,4 @@
-package app.android.appfinal.view
+package app.android.appfinal
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.TextView
-import app.android.appfinal.R
 import app.android.appfinal.model.database.entities.UserEntity
 
 
