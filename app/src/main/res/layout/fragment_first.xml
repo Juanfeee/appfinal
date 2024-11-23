@@ -11,7 +11,21 @@
         android:id="@+id/btnGrabadora"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="IR A GRABADORA" />
+        android:text="IR A Grabadora" />
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IR A ROOM" />
+    <Button
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnFormulario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IR A Formulario" />
 
     <Button
         android:id="@+id/btnCamara"
