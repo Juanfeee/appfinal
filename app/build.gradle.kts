@@ -2,8 +2,10 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.safeargs.kotlin)
+
     alias(libs.plugins.kotlin.kapt)
 }
+
 
 android {
     namespace = "app.android.appfinal"

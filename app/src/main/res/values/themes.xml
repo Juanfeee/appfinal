@@ -3,7 +3,7 @@
     <style name="Base.Theme.AppFinal" parent="Theme.Material3.DayNight.NoActionBar">
 
         <item name="android:textColor">@color/colorText</item>
-
+        <item name="rippleColor">@color/grayDarkDisabled</item>
     </style>
 
     <style name="Theme.AppFinal" parent="Base.Theme.AppFinal" />

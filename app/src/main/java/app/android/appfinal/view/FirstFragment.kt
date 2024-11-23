@@ -29,14 +29,13 @@ class FirstFragment : Fragment() {
         val btnGrabadora=root.findViewById<Button>(R.id.btnGrabadora)
 
         val btnCamara=root.findViewById<Button>(R.id.btnCamara)
+        btnCamara.setOnClickListener{
+            findNavController().navigate(R.id.action_firstFragment_to_cameraActivity)
+        }
         btnGrabadora.setOnClickListener{
-            findNavController().navigate(R.id.action_firstFragment_to_room)
+            findNavController().navigate(R.id.action_firstFragment_to_grabadoraFragment)
         }
-        btnCamara.setOnClickListener {
-            // Iniciar la nueva actividad
-            val intent = Intent(activity, CameraActivity::class.java) // Asegúrate de que la actividad esté correctamente importada
-            startActivity(intent)
-        }
+
         return root
     }
 

@@ -21,6 +21,9 @@
         <action
             android:id="@+id/action_firstFragment_to_cameraActivity"
             app:destination="@id/cameraActivity" />
+        <action
+            android:id="@+id/action_firstFragment_to_grabadoraFragment"
+            app:destination="@id/grabadoraFragment" />
     </fragment>
     <fragment
         android:id="@+id/room"
@@ -32,4 +35,9 @@
         android:name="app.android.appfinal.CameraActivity"
         android:label="activity_camera"
         tools:layout="@layout/activity_camera" />
+    <activity
+        android:id="@+id/imagenCapturada"
+        android:name="app.android.appfinal.ImagenCapturada"
+        android:label="activity_imagen_capturada"
+        tools:layout="@layout/activity_imagen_capturada" />
 </navigation>
