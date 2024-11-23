@@ -1,6 +1,7 @@
 package app.android.appfinal.model.database.dao
 
 import androidx.room.Dao
+import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
@@ -21,5 +22,8 @@ interface UserDao {
 
     @Query("DELETE FROM usuarios")
     suspend fun eliminarTodos()
+
+    @Delete
+    suspend fun eliminar(user: UserEntity)
 
 }

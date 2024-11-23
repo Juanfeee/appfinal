@@ -18,10 +18,21 @@
         <action
             android:id="@+id/action_firstFragment_to_room"
             app:destination="@id/room" />
+        <action
+            android:id="@+id/action_firstFragment_to_grabadoraFragment"
+            app:destination="@id/grabadoraFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_formulario"
+            app:destination="@id/formulario" />
     </fragment>
     <fragment
         android:id="@+id/room"
         android:name="app.android.appfinal.view.Room"
         android:label="fragment_room"
         tools:layout="@layout/fragment_room" />
+    <fragment
+        android:id="@+id/formulario"
+        android:name="app.android.appfinal.view.Formulario"
+        android:label="fragment_formulario"
+        tools:layout="@layout/fragment_formulario" />
 </navigation>
