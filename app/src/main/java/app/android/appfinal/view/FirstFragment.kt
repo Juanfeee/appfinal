@@ -38,9 +38,6 @@ class FirstFragment : Fragment() {
         btnGrabadora.setOnClickListener{
             findNavController().navigate(R.id.action_firstFragment_to_grabadoraFragment)}
 
-        btnGrabadora.setOnClickListener{
-            findNavController().navigate(R.id.action_firstFragment_to_grabadoraFragment)
-        }
         btnRoom.setOnClickListener{
             findNavController().navigate(R.id.action_firstFragment_to_room)
         }

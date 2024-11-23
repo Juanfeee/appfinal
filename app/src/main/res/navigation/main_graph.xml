@@ -19,26 +19,21 @@
             android:id="@+id/action_firstFragment_to_room"
             app:destination="@id/room" />
         <action
-<<<<<<< HEAD
             android:id="@+id/action_firstFragment_to_cameraActivity"
             app:destination="@id/cameraActivity" />
         <action
             android:id="@+id/action_firstFragment_to_grabadoraFragment"
             app:destination="@id/grabadoraFragment" />
-=======
-            android:id="@+id/action_firstFragment_to_grabadoraFragment"
-            app:destination="@id/grabadoraFragment" />
         <action
             android:id="@+id/action_firstFragment_to_formulario"
             app:destination="@id/formulario" />
->>>>>>> room
     </fragment>
     <fragment
         android:id="@+id/room"
         android:name="app.android.appfinal.view.Room"
         android:label="fragment_room"
         tools:layout="@layout/fragment_room" />
-<<<<<<< HEAD
+
     <activity
         android:id="@+id/cameraActivity"
         android:name="app.android.appfinal.CameraActivity"
@@ -49,11 +44,11 @@
         android:name="app.android.appfinal.ImagenCapturada"
         android:label="activity_imagen_capturada"
         tools:layout="@layout/activity_imagen_capturada" />
-=======
+
     <fragment
         android:id="@+id/formulario"
         android:name="app.android.appfinal.view.Formulario"
         android:label="fragment_formulario"
         tools:layout="@layout/fragment_formulario" />
->>>>>>> room
+
 </navigation>

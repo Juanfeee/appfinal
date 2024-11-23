@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!-- Campo para ingresar nombre a eliminar -->
+
         <EditText
             android:id="@+id/etNombreEliminar"
             android:layout_width="0dp"
@@ -23,7 +23,6 @@
             app:layout_constraintHorizontal_bias="0.5"
             android:layout_margin="16dp" />
 
-        <!-- Botón para eliminar usuario -->
         <Button
             android:id="@+id/btnEliminarUsuario"
             android:layout_width="0dp"
